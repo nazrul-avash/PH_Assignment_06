@@ -1,9 +1,11 @@
 import React from 'react';
+import companyLogo from './assets/DigiTools.png'
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div className=' bg-base-100 shadow-sm'>
+            <div className=" navbar  max-w-[1200px] mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,25 +25,21 @@ const Banner = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl"><img src={companyLogo} ></img></a>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center hidden lg:flex ">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2 bg-base-100 w-40 z-1">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+      <li><a>Products</a></li>
+      <li><a>Features</a></li>
+      <li><a>Pricing</a></li>
+      <li><a>Testimonials</a></li>
+      <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="navbar-end flex  gap-3">
+    <a><FaShoppingCart /></a>
+    <a>Login</a>
+    <a className="btn btn-primary rounded-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
   </div>
 </div>
         </div>
