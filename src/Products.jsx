@@ -6,9 +6,8 @@ const fetchData = async()=>{
     const response = await fetch('/productData.json');
     return response.json();
 }
-const Products = () => {
+const Products = ({cart,setCart}) => {
     const [toggleStatus,setToggleStatus] =useState("products");
-    const [cart,setCart] = useState([]);
     const productData = fetchData();
     function handleToggle(buttonClicked){
        setToggleStatus(buttonClicked);

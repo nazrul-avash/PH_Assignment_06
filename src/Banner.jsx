@@ -2,7 +2,7 @@ import React from 'react';
 import companyLogo from './assets/DigiTools.png'
 import { FaShoppingCart } from 'react-icons/fa';
 
-const Banner = () => {
+const Banner = ({cart}) => {
     return (
         <div className=' bg-base-100 shadow-sm'>
             <div className=" navbar  max-w-[1200px] mx-auto ">
@@ -38,7 +38,7 @@ const Banner = () => {
   </div>
   <div className="navbar-end flex  gap-3">
     <div><div className="indicator">
-  <span className="indicator-item badge bg-red-600  badge-xs ">0</span>
+  <span className={` badge   badge-xs ${(cart.length<=0?"":"bg-red-600 indicator-item")} `}>{(cart.length<=0?"":cart.length)}</span>
   <a><FaShoppingCart  size={24} /></a>
 </div></div>
    

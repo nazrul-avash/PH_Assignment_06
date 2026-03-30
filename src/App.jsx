@@ -5,16 +5,17 @@ import Banner from './Banner'
 import Hero from './Hero'
 import Products from './Products'
 import Testimonials from './Testimonials'
+import { useState } from 'react'
 
 function App() {
-
+const [cart,setCart] = useState([]);
 
   return (
     <>
-     <Banner/>
+     <Banner cart={cart}></Banner>
      <Hero/>
      <Testimonials></Testimonials>
-     <Products/>
+     <Products cart={cart} setCart={setCart}></Products>
      <ToastContainer />
     </>
   )
