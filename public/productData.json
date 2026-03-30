@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes in minutes with easy-to-use templates.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "/images/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Monthly Cloud Storage",
+    "description": "Secure cloud storage for all your important files.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["1TB storage", "File sharing", "Automatic backup"],
+    "icon": "/images/shopping-cart.png"
+  },
+  {
+    "id": 3,
+    "name": "Yearly Design Suite",
+    "description": "All-in-one design tools for professionals and hobbyists.",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Vector editing", "Photo manipulation", "Template library"],
+    "icon": "/images/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "Task Manager Pro",
+    "description": "Organize your workflow and boost productivity.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Kanban boards", "Recurring tasks", "Notifications"],
+    "icon": "/images/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "SEO Optimizer",
+    "description": "Optimize your website to rank higher in search engines.",
+    "price": 59.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Keyword analysis", "Site audit", "Competitor tracking"],
+    "icon": "/images/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Language Learning App",
+    "description": "Learn new languages with fun and interactive lessons.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Interactive lessons", "Progress tracking", "Audio exercises"],
+    "icon": "/images/portfolio.png"
+  },
+  {
+    "id": 7,
+    "name": "Premium Analytics Dashboard",
+    "description": "Advanced analytics tools to track your business performance.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Custom reports", "Real-time data", "Team collaboration"],
+    "icon": "/images/portfolio - Copy.png"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Suite",
+    "description": "Professional video editing tools for creators.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Timeline editing", "Transitions & effects", "Export in 4K"],
+    "icon": "/images/shopping-cart - Copy.png"
+  }
+]
