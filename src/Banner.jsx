@@ -37,7 +37,11 @@ const Banner = () => {
     </ul>
   </div>
   <div className="navbar-end flex  gap-3">
-    <a><FaShoppingCart /></a>
+    <div><div className="indicator">
+  <span className="indicator-item badge bg-red-600  badge-xs ">0</span>
+  <a><FaShoppingCart  size={24} /></a>
+</div></div>
+   
     <a>Login</a>
     <a className="btn btn-primary rounded-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
   </div>

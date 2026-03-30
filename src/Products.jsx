@@ -23,10 +23,10 @@ const Products = () => {
                <div className='text-center mb-10'>
                  <div className='text-center rounded-3xl shadow-lg p-1 inline-flex justify-center gap-1'>
                     <button className={`btn rounded-3xl border ${toggleStatus==="products"? "btn-primary": ""}`} onClick={()=>handleToggle("products")}>Products</button>
-                    <button className={`btn rounded-3xl border ${toggleStatus!=="products"? "btn-primary": ""}`} onClick={() =>handleToggle("cart")}>Cart(<span>2</span>)</button>
+                    <button className={`btn rounded-3xl border ${toggleStatus!=="products"? "btn-primary": ""}`} onClick={() =>handleToggle("cart")}>Cart(<span>{cart.length}</span>)</button>
                 </div>
                 </div>
-                <div className='grid grid-cols-3 gap-5'>
+                <div >
                     <Suspense fallback={<span className="loading loading-spinner loading-md"></span>}>
                         {
                             

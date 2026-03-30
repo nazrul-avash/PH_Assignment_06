@@ -2,14 +2,20 @@ import React, { use } from 'react';
 import { toast } from 'react-toastify';
 
 const ProductCard = ({productData,setCart,cart}) => {
+    
     const products = use(productData);
+    function isInCart(product){
+        return cart.map(item=>item.name).includes(product.name);
+    }
     function addToCart(product){
         const tempArray = [...cart,product];
+        toast.success(`${product.name} added to cart 🛒`);
         setCart(tempArray);
-         toast.success(`${product.name} added to cart 🛒`);
+        
     }
     return (
-      products.map((product)=>{
+     <div className='grid grid-cols-3 gap-5'>
+        { products.map((product)=>{
         return (
         <div className="card w-96 bg-base-100 shadow-sm">
   <div className="card-body">
@@ -35,11 +41,12 @@ const ProductCard = ({productData,setCart,cart}) => {
       
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block rounded-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]" onClick={(product)=>addToCart(product)}>Buy Now</button>
+      <button className="btn btn-primary btn-block text-white rounded-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]" disabled={isInCart(product)} onClick={()=> addToCart(product)}>{isInCart(product)?"Added to the Cart":"Buy Now"}</button>
     </div>
   </div>
 </div>)
-      })
+      })}
+     </div>
     );
 };
 
