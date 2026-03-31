@@ -14,7 +14,7 @@ const ProductCard = ({productData,setCart,cart}) => {
         
     }
     return (
-     <div className='grid grid-cols-3 gap-5'>
+     <div className='grid md:grid-cols-3 gap-5 '>
         { products.map((product)=>{
         return (
         <div className="card w-96 bg-base-100 shadow-sm">

@@ -13,7 +13,7 @@ const Products = ({cart,setCart}) => {
        setToggleStatus(buttonClicked);
     }
     return (
-        <div>
+        <div className='mb-[120px]'>
             <div className='max-w-[1200px] mx-auto'>
                 <div className='text-center'>
                     <h1 className='text-[48px] text-black font-extrabold'>Premium Digital Tools</h1>

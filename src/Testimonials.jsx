@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonials = () => {
     return (
         <div className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] pt-[50px] pb-[50px] mb-[120px]'>
-            <div className='max-w-[1200px] mx-auto flex items-center justify-center gap-10'>
+            <div className='max-w-[1200px] mx-auto flex md:flex-row flex-col items-center justify-center gap-10'>
                 <div className='flex gap-25 items-center'>
                     <div><h1 className='text-[60px] text-white font-extrabold'>50K+</h1>
                     <h2 className='text-white/50  text-2xl'>Active Users</h2></div>

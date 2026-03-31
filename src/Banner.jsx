@@ -7,7 +7,7 @@ const Banner = ({cart}) => {
         <div className=' bg-base-100 shadow-sm'>
             <div className=" navbar  max-w-[1200px] mx-auto ">
   <div className="navbar-start">
-    <div className="dropdown">
+    {/* <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
       </div>
@@ -24,7 +24,7 @@ const Banner = ({cart}) => {
         </li>
         <li><a>Item 3</a></li>
       </ul>
-    </div>
+    </div> */}
     <a className="btn btn-ghost text-xl"><img src={companyLogo} ></img></a>
   </div>
   <div className="navbar-center hidden lg:flex ">
@@ -36,7 +36,7 @@ const Banner = ({cart}) => {
       <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end flex  gap-3">
+  <div className="navbar-end flex gap-1 md:gap-3">
     <div><div className="indicator">
   <span className={` badge   badge-xs ${(cart.length<=0?"":"bg-red-600 indicator-item")} `}>{(cart.length<=0?"":cart.length)}</span>
   <a><FaShoppingCart  size={24} /></a>

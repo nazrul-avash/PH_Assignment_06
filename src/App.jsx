@@ -6,6 +6,11 @@ import Hero from './Hero'
 import Products from './Products'
 import Testimonials from './Testimonials'
 import { useState } from 'react'
+import Steps from './Steps'
+import Pricing from './Pricing'
+import Workflow from './Workflow'
+import Footer from './Footer'
+
 
 function App() {
 const [cart,setCart] = useState([]);
@@ -17,6 +22,10 @@ const [cart,setCart] = useState([]);
      <Testimonials></Testimonials>
      <Products cart={cart} setCart={setCart}></Products>
      <ToastContainer />
+     <Steps></Steps>
+     <Pricing></Pricing>
+     <Workflow></Workflow>
+    <Footer></Footer>
     </>
   )
 }
