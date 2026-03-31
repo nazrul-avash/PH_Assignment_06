@@ -9,7 +9,7 @@ const Hero = () => {
                 <button className='btn rounded-4xl p-2 bg-blue-300/30 text-purple-500'>
                     <div className='w-3 h-3 rounded-full bg-purple-500/30  flex  items-center pl-0.5'><div className=' w-2 h-2 rounded-full bg-purple-500 '></div></div>
                     New: AI-Powered Tools Available</button>
-                <h1 className='md:text-[72px] text-4xl font-extrabold'>Supercharge Your <br></br> Digital Workflow</h1>
+                <h1 className='md:text-[72px] text-4xl font-extrabold mb-3'>Supercharge Your <br></br> Digital Workflow</h1>
                 <p className='mb-4'>Access premium AI tools, design assets, templates, and productivity<br></br>
                     software—all in one place. Start creating faster today.
                 </p>

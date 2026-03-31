@@ -1,16 +1,21 @@
-# React + Vite
+#  DigiTools - AI-Powered Productivity Suite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Project Name
+DigiTools - AI-Powered Productivity Suite
 
-Currently, two official plugins are available:
+## 📖 Description
+A single page web application for an e-commerce business which sells ai tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- React.js
+- Tailwind CSS, DaisyUI
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🔹 Feature 1: It represents company portfolio with all the functionalities, profile, achievements, contact information etc.
+- 🔹 Feature 2: Customers can add product to cart and checkout
+- 🔹 Feature 3: Can edit cart
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

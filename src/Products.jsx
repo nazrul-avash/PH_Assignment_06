@@ -26,7 +26,7 @@ const Products = ({cart,setCart}) => {
                 </div>
                 </div>
                 <div className='pl-4 md:pl-1' >
-                    <Suspense fallback={<span className="loading loading-spinner loading-md"></span>}>
+                    <Suspense >
                         {
                             
                             (toggleStatus==="products"?(<ProductCard productData={productData} setCart={setCart} cart={cart}></ProductCard>):(<CartData cart={cart} setCart={setCart}></CartData>))

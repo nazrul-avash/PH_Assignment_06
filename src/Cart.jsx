@@ -11,6 +11,7 @@ const Cart = ({cart,setCart}) => {
     function checkOut(){
         const temp =[];
         setCart(temp);
+        toast.info(`Cart Cleared`)
     }
     return (
         <div className='shadow-md mb-6 pb-5 '>
