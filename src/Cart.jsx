@@ -39,7 +39,7 @@ const Cart = ({cart,setCart}) => {
             <li className='list-row mb-4 bg-base-100 flex justify-between px-8 font-extrabold'>
                 
                     <p>Total</p>
-                    <p>{cart.map(el=>el.price).reduce((acc,el)=>{return (acc +el);},0).toFixed(3)}</p>
+                    <p>${cart.map(el=>el.price).reduce((acc,el)=>{return (acc +el);},0).toFixed(3)}</p>
                 
             </li>
             
