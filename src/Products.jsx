@@ -25,7 +25,7 @@ const Products = ({cart,setCart}) => {
                     <button className={`btn rounded-3xl border ${toggleStatus!=="products"? "btn-primary": ""}`} onClick={() =>handleToggle("cart")}>Cart(<span>{cart.length}</span>)</button>
                 </div>
                 </div>
-                <div >
+                <div className='pl-4 md:pl-1' >
                     <Suspense fallback={<span className="loading loading-spinner loading-md"></span>}>
                         {
                             

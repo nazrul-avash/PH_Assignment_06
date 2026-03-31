@@ -8,8 +8,8 @@ const Steps = () => {
                     <p className='mb-6'>Start using premium digital tools in minutes, not hours.</p>
             </div>
           
-      <div className='flex justify-between gap-6'>
-              <div className="card w-96 bg-base-100 shadow-sm  p-4">
+      <div className='flex md:justify-between gap-6 md:flex-row flex-col justify-center items-center'>
+              <div className="card w-90 bg-base-100 shadow-sm  p-4">
                 <div className='flex justify-end p-5'><div className=' text-white w-10 h-10 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex items-center justify-center'>01</div></div>
                 <div className='flex flex-col items-center justify-center'>
                     <div className='relative mb-4'>

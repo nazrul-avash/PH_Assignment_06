@@ -17,7 +17,7 @@ const ProductCard = ({productData,setCart,cart}) => {
      <div className='grid md:grid-cols-3 gap-5 '>
         { products.map((product)=>{
         return (
-        <div className="card w-96 bg-base-100 shadow-sm">
+        <div className="card w-92bg-base-100 shadow-sm">
   <div className="card-body">
     <div className='flex justify-end'><span className="badge badge-xs badge-warning">{product.tag}</span></div>
     <div className=''><img src={product.icon} className=''></img></div>

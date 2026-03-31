@@ -7,8 +7,8 @@ const Pricing = () => {
                     <h1 className='text-[48px] text-black font-extrabold'>Simple, Transparent Pricing</h1>
                     <p className='mb-6'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='flex justify-between gap-10'>
-                <div className="card w-96 bg-base-100 shadow-sm">
+            <div className='flex justify-between gap-10 md:flex-row flex-col items-center'>
+                <div className="card w-92 bg-base-100 shadow-sm">
   <div className="card-body bg-[#F9FAFC] pb-5 rounded-4xl">
    
     <div className="flex justify-between">

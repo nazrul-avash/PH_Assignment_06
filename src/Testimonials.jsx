@@ -7,16 +7,16 @@ const Testimonials = () => {
                 <div className='flex gap-25 items-center'>
                     <div><h1 className='text-[60px] text-white font-extrabold'>50K+</h1>
                     <h2 className='text-white/50  text-2xl'>Active Users</h2></div>
-                    <div className="w-px h-15 pt-3 bg-gray-300"></div>
+                    <div className="w-px h-15 pt-3 bg-gray-300 hidden md:block"></div>
                 </div>
-                <div className='flex pl-10 gap-25 items-center'>
+                <div className='flex pl-4 md:pl-10 gap-25 items-center'>
                     <div><h1 className='text-[60px] text-white font-extrabold'>200+</h1>
                     <h2 className='text-white/50  text-2xl'>Premium Tools</h2></div>
-                    <div className="w-px h-15 bg-gray-300"></div>
+                    <div className="w-px h-15 bg-gray-300 hidden md:block"></div>
                 </div>
-                <div className='pl-10'>
+                <div className='pl-2 md:pl-10'>
                     <div><h1 className='text-[60px] text-white font-extrabold'>4.9</h1>
-                    <h2 className='text-white/50  text-2xl'>Rating</h2></div>
+                    <h2 className='text-white/50  text-2xl '>Rating</h2></div>
                     
                 </div>
             </div>

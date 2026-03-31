@@ -38,7 +38,7 @@ const Banner = ({cart}) => {
   </div>
   <div className="navbar-end flex gap-1 md:gap-3">
     <div><div className="indicator">
-  <span className={` badge   badge-xs ${(cart.length<=0?"":"bg-red-600 indicator-item")} `}>{(cart.length<=0?"":cart.length)}</span>
+  <span className={` badge   badge-xs ${(cart.length<=0?"hidden":"bg-red-600 indicator-item")} `}>{(cart.length<=0?"":cart.length)}</span>
   <a><FaShoppingCart  size={24} /></a>
 </div></div>
    
