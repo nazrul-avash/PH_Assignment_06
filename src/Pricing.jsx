@@ -8,7 +8,7 @@ const Pricing = () => {
                     <p className='mb-6'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             <div className='flex justify-between gap-10 md:flex-row flex-col items-center'>
-                <div className="card w-92 bg-base-100 shadow-sm">
+                <div className="card w-92 bg-base-100 shadow-sm rounded-4xl ">
   <div className="card-body bg-[#F9FAFC] pb-5 rounded-4xl">
    
     <div className="flex justify-between">
@@ -16,7 +16,7 @@ const Pricing = () => {
       
     </div>
     <p className='text-[#627382]'>Access to 10 free tools</p>
-    <span className="pt-3 text-2xl font-bold">$29/mo</span>
+    <span className="pt-3 text-2xl font-bold">$0/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs pb-8">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -41,34 +41,34 @@ const Pricing = () => {
     </div>
   </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-sm relative">
+                <div className="card w-96 bg-base-100 shadow-sm relative rounded-4xl">
                     <div className='flex justify-center absolute items-center left-30 -top-3'>
                         <button className='bg-[#FEF3C6] rounded-4xl p-1 px-2 text-red-400'>Most Popular</button>
                     </div>
   <div className="card-body text-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA] pb-5 rounded-4xl">
    
     <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Starter</h2>
+      <h2 className="text-3xl font-bold">Pro</h2>
       
     </div>
-    <p className='text-gray-400'>Access to 10 free tools</p>
+    <p className='text-gray-400'>Best for professionals</p>
     <span className="pt-3 text-2xl font-bold">$29/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs pb-8">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Basic templates</span>
+        <span>Access to all premium tools</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Community support</span>
+        <span>Unlimited templates</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>1 project per month</span>
+        <span>Priority support</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
+        <span>Unlimited projects</span>
       </li>
       
     </ul>
@@ -77,31 +77,31 @@ const Pricing = () => {
     </div>
   </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-sm">
+                <div className="card w-96 bg-base-100 shadow-sm rounded-4xl ">
   <div className="card-body bg-[#F9FAFC] pb-5 rounded-4xl">
    
     <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Starter</h2>
+      <h2 className="text-3xl font-bold">Enterprise</h2>
       
     </div>
-    <p className='text-[#627382]'>Access to 10 free tools</p>
-    <span className="pt-3 text-2xl font-bold">$29/mo</span>
+    <p className='text-[#627382]'>For teams and businesses</p>
+    <span className="pt-3 text-2xl font-bold">$99/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs pb-8">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Basic templates</span>
+        <span>Everything in Pro</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Community support</span>
+        <span>Team collaboration</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>1 project per month</span>
+        <span>Custom integrations</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
+        <span>Dedicated support</span>
       </li>
       
     </ul>

@@ -25,7 +25,7 @@ const Banner = ({cart}) => {
         <li><a>Item 3</a></li>
       </ul>
     </div> */}
-    <a className="btn btn-ghost text-xl"><img src={companyLogo} ></img></a>
+    <a className="btn btn-ghost w-full max-w-[150px] h-auto"><img src={companyLogo} ></img></a>
   </div>
   <div className="navbar-center hidden lg:flex ">
     <ul className="menu menu-horizontal px-1">

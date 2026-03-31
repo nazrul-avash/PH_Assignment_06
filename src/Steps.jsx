@@ -16,7 +16,7 @@ const Steps = () => {
                     <div className='w-40 h-40 bg-purple-500/20 rounded-full flex justify-center items-center'>
                         
                     </div>
-                    <img  src='/public/images/user.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
+                    <img  src='/images/user.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
                 </div>
                 <h1 className='text-[#101727] text-2xl font-bold mb-3'>Create Account</h1>
                 <p className='text-[#627382] text-center'>Sign up for free in seconds. No credit card required to get started.</p>
@@ -29,7 +29,7 @@ const Steps = () => {
                     <div className='w-40 h-40 bg-purple-500/20 rounded-full flex justify-center items-center'>
                         
                     </div>
-                    <img  src='/public/images/package.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
+                    <img  src='/images/package.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
                 </div>
                 <h1 className='text-[#101727] text-2xl font-bold mb-3'>Choose Products</h1>
                 <p className='text-[#627382] text-center'>Browse our catalog and select the tools that fit your needs.</p>
@@ -42,7 +42,7 @@ const Steps = () => {
                     <div className='w-40 h-40 bg-purple-500/20 rounded-full flex justify-center items-center'>
                         
                     </div>
-                    <img  src='/public/images/rocket.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
+                    <img  src='/images/rocket.png' className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10'></img>
                 </div>
                 <h1 className='text-[#101727] text-2xl font-bold mb-3'>Start Creating</h1>
                 <p className='text-[#627382] text-center'>Download and start using your premium tools immediately.</p>
